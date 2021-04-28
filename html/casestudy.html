@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ai Là Triệu Phú</title>
+  <link rel="stylesheet" href="../css/css.css">
+
+</head>
+<div>
+  <h2 id="styleTime">
+    Còn lại:<span id="timeCountDown"></span>
+  </h2>
+</div>
+<body>
+<div id="wrapper">
+  <div id="questionScreen" class="hide">
+    <div id="question">Câu hỏi</div>
+    <table id="answer">
+      <tr>
+        <td><button id="answer_1" onclick="checkAnswer(this.id, this)" class="answer1">Câu trả lời 1</button></td>
+        <td><button id="answer_2" onclick="checkAnswer(this.id, this)" class="answer1">Câu trả lời 2</button></td>
+      </tr>
+      <tr>
+        <td><button  id="answer_3"  onclick="checkAnswer(this.id, this)" class="answer1">Câu trả lời 3</button></td>
+        <td><button id="answer_4" onclick="checkAnswer(this.id, this)" class="answer1">Câu trả lời 4</button></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<script src="../js/game.js"></script>
+</body>
+</html>

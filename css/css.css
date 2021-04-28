@@ -1,0 +1,76 @@
+body {
+    background-image: url("https://cdn-www.bluestacks.com/bs-images/bg-top8.png");
+    background-size: cover;
+
+}
+
+#styleTime {
+    background-color: limegreen;
+    font-size: 30px;
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white
+}
+
+#timeCountDown {
+    background-color: limegreen;
+    font-size: 30px;
+    width: 350px;
+    border-radius: 10px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white
+}
+
+#question {
+    background-color: palevioletred;
+    width: 80%;
+    height: 90px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 100px auto 50px auto;
+    padding: 5px;
+    font-size: 40px;
+}
+
+#answer {
+    width: 600px;
+    text-align: center;
+}
+
+button {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px auto;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 80px;
+}
+
+button:hover {
+    background-color: green;
+    transform: translateY(-10px);
+}
+
+button:active {
+    outline: none;
+    transform: translateX(-10px);
+    color: palevioletred;
+}
+.answer1{
+    width: 400px;
+    height: 50px;
+    margin-left: 200px;
+}
+#wrapper {
+    margin-left: 100px;
+    margin-top: 430px;
+}
